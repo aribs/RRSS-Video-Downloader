@@ -1,10 +1,10 @@
-# YouTube Video Downloader
+# Social Media Video Downloader
 
-A simple Python script to download YouTube videos using `yt-dlp` and `ffmpeg`. This script allows you to download videos in the best available quality by passing the video URL as a command-line argument.
+A simple Python script to download YouTube, and Tiktok videos using `yt-dlp` and `ffmpeg`. This script allows you to download videos in the best available quality by passing the video URL as a command-line argument.
 
 ## 📌 Requirements
 - Python 3.x
-- `yt-dlp` (for downloading YouTube videos)
+- `yt-dlp` (for downloading YouTube and Tiktok videos)
 - `ffmpeg` (for merging video and audio)
 
 ## 🚀 Installation
@@ -41,7 +41,7 @@ brew install ffmpeg
    ```
 
 ## 📝 Usage
-Run the script with the YouTube video URL as an argument:
+Run the script with the YouTubeor Tiktok video URL as an argument:
 ```bash
 python downloader.py "https://www.youtube.com/watch?v=VIDEO_ID"
 ```
